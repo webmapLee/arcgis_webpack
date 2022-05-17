@@ -1,0 +1,46 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\liyan\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js build
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Users\liyan\AppData\Local\Yarn\bin;C:\Users\liyan\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Java\jdk-11.0.7\bin;.;C:\Program Files\Java\jdk-11.0.7\lib;;C:\Program Files\TortoiseGit\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\bin;C:\develop\work\apache-jmeter-5.4.3\bin;C:\Users\liyan\AppData\Local\pnpm;C:\Users\liyan\AppData\Local\Microsoft\WindowsApps;C:\Users\liyan\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\liyan\AppData\Roaming\npm;C:\Users\liyan\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\develop\personal\gis\arcgis\arcgis_webpack\package.json: Unexpected token } in JSON at position 154
+      at JSON.parse (<anonymous>)
+      at C:\Users\liyan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\liyan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\liyan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "arcgis_webpack",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "build": "webpack --mode production",
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "webpack": "^5.72.1",
+      "webpack-cli": "^4.9.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
